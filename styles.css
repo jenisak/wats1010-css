@@ -1,6 +1,95 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
 }
+
+h1 {
+    color: maroon;
+}
+
+header.page-header p{
+  color: black;
+}
+
+header.page-header{
+     border-bottom: solid 1px black;
+    text-align: center;
+  /*background: linear-gradient(gray, black);*/
+}
+
+.page-header h1{
+  margin-bottom: 0;
+}
+
+.page-header p {
+  margin-top: 0;
+}
+    
+.page-header small{
+   font-size: medium;   
+  }
+
+body {
+  background-image: url('images/sand.jpg');
+  font-family: serif;
+}
+
+aside.more-info img{
+  width: 200px;
+  height: auto;
+  float: left;
+  margin: 0 100px 0 0;
+}
+
+aside.more-info h2{
+  text-align: right;
+}
+
+aside.more-info p{
+  text-align: right;
+}
+
+ul.info-links{
+  list-style-type: none;
+      padding-left: 1em;
+  text-align: right;
+}
+
+ul.social-links{
+  list-style-type: none;
+      padding-left: 1em;
+  text-align: right;
+}
+
+section#content {
+  margin-top: 100px;
+}
+
+ul.poem {
+  list-style-type: none;
+  font-size: large;
+  line-height: 1.5;
+  text-align: center;
+}
+
+footer.page-footer {
+  /*background-color: lightblue;*/
+  color: black;
+  background: linear-gradient(tan, lightslategray);
+}
+
+
+p.citation {
+ margin-bottom: 0em;
+}
+
+footer.content-footer {
+  text-align: right;
+}
+
+footer.page-footer ul{
+      margin-top: 0em;
+}
+    
